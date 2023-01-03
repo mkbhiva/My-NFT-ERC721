@@ -55,7 +55,7 @@ contract ManuNFT is ERC721, Ownable {
 }
 ```
 
-**_safeMint**
+**safeMint**
 _safeMint is an internal function defined in [Open Zeppelin's](https://openzeppelin.com) code. We call it by defining our own function safeMint so that we can add any other conditions to it. For example, we can require the address to be whitelisted, or have a certain balance, or check if the current supply is less than the max supply etc. before a user is allowed to mint it. We’ll use these conditions in future modules when we create more complex contracts.
 
 **Other Functions from ERC721**
